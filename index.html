@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>color generator</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="container">
+  <h1 class="text">RGB Color Generator</h1>
+  <div class="color-box" id="colorbox"></div>
+  
+  <div class="sliders">
+   <div class="slider">
+    <label for="Red">Red:</label>
+    <input type="range" id="redslider" min="0" max="255">
+    <span id="redvalue">0</span>
+   </div>
+
+   <div class="slider">
+    <label for="Green">Green:</label>
+    <input type="range" id="greenslider" min="0" max="255">
+    <span id="greenvalue">0</span>
+   </div>
+
+   <div class="slider">
+    <label for="Blue">Blue:</label>
+    <input type="range" id="blueslider" min="0" max="255">
+    <span id="bluevalue">0</span>
+   </div>
+
+  </div>
+  <div class="button-container">
+
+   <button id="copybtn">Copy RGB Value</button>
+   <div class="colorvalue" id="colorvalue">
+    rgb(225,123,134)
+   </div>
+  </div>
+
+
+
+ </div>
+
+
+
+ <script src="script.js"></script>
+</body>
+
+</html>
